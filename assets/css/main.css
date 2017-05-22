@@ -1,0 +1,265 @@
+/* =====================   CSS RESET SECTION ==== */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------------
+ GENERAL SECTION
+-------------------------- */
+.mainBody{
+    background:
+            linear-gradient(rgba(25, 0, 0, 0.5), rgba(0, 0, 50, 0.5)),
+            url("../imgs/new-bg.JPG")
+            ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav a:hover{
+    color: coral;
+}
+
+nav a.activePage{
+    color: lawngreen;
+}
+/* ------------------------
+ HEADER SECTION
+-------------------------- */
+.pageBanner{
+    background:
+            linear-gradient(rgba(25, 0, 0, 0.5), rgba(0, 0, 50, 0.5)),
+            url("../imgs/new-bg.JPG")
+            ;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 200px;
+}
+
+.headingMid{
+    text-align: center;
+    margin-top: 200px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+.topNav a{
+    text-decoration: none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    color: #FFFFFF;
+}
+
+.topNav{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.pagesNav{
+    margin-bottom: -100px;
+}
+
+.pageHeader{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -70px;
+}
+
+
+/* ------------------------
+  MAIN SECTION
+-------------------------- */
+
+.pagesBody{
+    background-color: #1E211B;
+}
+
+/* blog page */
+
+.blogContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.blogLinks {
+    margin: 10px 10px 25px 10px;
+}
+
+.blogContainer{
+    text-align: center;
+}
+
+.blogContainer img {
+    border-radius: 50%;
+}
+
+.blogBoxDisplay {
+    display: none;
+}
+
+.blogContainer a{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+ }
+
+#blogBox1{
+    border: 2px solid #000000;
+    width: 80%;
+    padding: 20px;
+}
+#blogBox2{
+    border: 5px double #000000;
+    width: 80%;
+    padding: 20px;
+}
+#blogBox3{
+    border: 2px dashed #000000;
+    width: 80%;
+    padding: 20px;
+}
+#blogBox4{
+    border: 2px dotted #000000;
+    width: 80%;
+    padding: 20px;
+}
+#blogBox5{
+    border: 2px ridge #000000;
+    width: 80%;
+    padding: 20px;
+}
+
+
+/* about page */
+
+.aboutContainer{
+    background:url("../imgs/new-about.JPG");
+    background-position: -2922px 1860px;
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    border-radius: 250px;
+}
+
+.aboutInfo{
+    text-align: justify;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+/* contact page */
+
+.contactContainer{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.mapForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.contactForm {
+    padding-top: 100px;
+    padding-right: 150px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+/* gallery page */
+#gallery{
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.rightBtn{
+    float: right;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.leftBtn{
+    float: left;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+/* ------------------------
+  FOOTER SECTION
+-------------------------- */
+
+.footerNav a:hover{
+    color: coral;
+}
+
+.footerNav a.activePage{
+    color: lawngreen;
+}
+
+.homeFooterNav a:hover{
+    color: coral;
+}
+
+.homeFooterNav a.activePage{
+    color: lawngreen;
+}
+
+.homeFooterNav a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 505px;
+    color: whitesmoke;
+}
+
+.footerNav a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 300px;
+    color: whitesmoke;
+}

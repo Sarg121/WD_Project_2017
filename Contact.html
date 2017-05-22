@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>First Project Contact Page</title>
+    <link rel="stylesheet" href="assets/css/main.css" media="screen">
+</head>
+<body class="pagesBody">
+<div id="wrapper">
+    <header>
+        <nav class="topNav pagesNav">
+            <a href="index.html">Home</a>
+            <a href="Blog.html">Blog</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html" class="activePage">Contact</a>
+        </nav>
+        <div class="pageBanner">
+
+        </div><!--pageBanner-->
+        <h1 class="pageHeader">Contact</h1>
+    </header>
+    <main>
+        <div class="mapForm"><div class="contactContainer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4297.641926522398!2d-0.10838018671176124!3d51.519708191949704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b38b4d1161f%3A0xb8fb2ba0663d6ea!2sTraining+Dragon!5e0!3m2!1sen!2suk!4v1487245470019"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div><!--contactContainer-->
+            <div class="contactInfo">
+                <form class="contactForm" action="#" method="post" enctype="multipart/form-data"><fieldset>
+                    <legend>Contact Us:</legend>
+
+                    <p><label for="username">Name:</label></p>
+                    <p><input id="username" type="text" name="usr"
+                              value="" placeholder="Name here..."></p>
+
+                    <p><label for="emailAddr">Email:</label></p>
+                    <p><input id="emailAddr" type="email" name="email"
+                              value="" placeholder="Email Address here..."></p>
+                </fieldset><!--contact us-->
+
+                    <fieldset><p><label for="aboutUs">How did you know about us?</label></p><p>
+                        <select name="aboutUs" id="aboutUs">
+                            <option value="internet">Internet</option>
+                            <option value="adverts">Adverts</option>
+                            <option value="friends">Friends</option>
+                            <option  value="somewhere">Somewhere else</option>
+                        </select>
+                    </p></fieldset><!--About Us-->
+
+                    <fieldset><legend>Send us a message!</legend>
+                        <p><label for="message"> </label></p><p><textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here...."></textarea></p></fieldset><!--message box-->
+
+                    <fieldset><p>
+                        <button type="reset">Clear</button>
+                        <button type="submit">Submit</button>
+                    </p></fieldset><!--buttons--></form>
+            </div><!--contactInfo-->
+        </div><!--mapForm-->
+    </main>
+    <footer>
+        <ul class="footerNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html" class="activePage">Contact</a></li>
+        </ul>
+    </footer>
+</div><!--/wrapper-->
+</body>
+</html>
